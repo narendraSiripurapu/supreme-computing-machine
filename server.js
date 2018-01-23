@@ -25,8 +25,8 @@ app.use((req,res,next)=>{
 
 app.get('/',(req,res)=>{
    res.render('home.hbs',{
-    pageTitle: 'Homepage',
-    welcomeMessage : 'hey guys welcome!'
+    pageTitle: 'Hi Mani',
+    welcomeMessage : 'Thank you, for introducing me to this wonder lectures. I am loving it!'
 
    });
    
